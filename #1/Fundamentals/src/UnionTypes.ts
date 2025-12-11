@@ -7,5 +7,5 @@ export function UserId(id: string | number) {
   return `The User's ID in Number is ${id}`;
 }
 
-const createId = UserId(5);
+const createId = UserId("5");
 console.log(createId);
